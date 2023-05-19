@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Calculater</title>
+</head>
+<body>
+    <form name="calculaterForm" onsubmit="submitData();"> 
+    <label for="balance">Balance of the account</label> 
+    <input type="text" name="balance" id="balance"></br></br>
+    <label for="interestRate">Annual Interest rate</label> 
+    <input type="text" name="interestRate" id="interestRate"></br></br>
+    <label for="duration">Duration of Investment in Months</label> 
+    <input type="text" name="duration" id="duration"></br></br>
+    <button type="submit">Calculater</button>
+</form>
+<div id="output"></div>
+<script src="calculator.js"></script>
+</body>
+</html>
